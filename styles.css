@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+#todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#todo-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#todo-list li:last-child {
+    border-bottom: none;
+}
+
+#todo-form {
+    margin-top: 20px;
+}
+
+#todo-input {
+    width: 50%;
+    height: 30px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+#todo-button {
+    width: 20%;
+    height: 30px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#todo-button:hover {
+    background-color: #3e8e41;
+}
